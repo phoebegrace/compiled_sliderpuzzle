@@ -1,0 +1,21 @@
+name: slider_puzzle_game
+description: A slider puzzle game built using Flutter.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.20.1  # Add audioplayers for sound management
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/se.wav
+    - assets/sounds/cs.wav
+    - assets/sounds/bg.mp3
+
